@@ -93,8 +93,6 @@ section.packages::before {
     animation: translateY 0.8s infinite alternate;
 }
 
-
-
 /* Responsive */
 
 @media screen and (max-width:968px) {
