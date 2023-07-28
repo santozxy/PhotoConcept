@@ -110,7 +110,6 @@ section.packages::before {
                 var(--primary)),
             url("../assets/bg-mobile.jpg");
         background-attachment: scroll;
-        height: 100vh;
     }
 
     .resume-section p {
