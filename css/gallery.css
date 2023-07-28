@@ -1,3 +1,7 @@
+.gallery{
+  background-color: var(--primary);
+}
+
 .tab {
   display: flex;
   align-items: center;
