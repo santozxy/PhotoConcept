@@ -1,6 +1,6 @@
-.gallery{
+.gallery {
   background-color: var(--primary);
-  z-index: 1;
+  padding-bottom: 4rem;
 }
 
 .tab {
@@ -13,7 +13,6 @@
   padding: 3rem;
 }
 
-/* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: var(--secondary);
   border-radius: .4rem;
