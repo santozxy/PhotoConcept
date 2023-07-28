@@ -108,8 +108,9 @@ section.packages::before {
         background-image: linear-gradient(to bottom,
                 rgba(0, 0, 0, 0.4),
                 var(--primary)),
-            url("../assets/bg-mobile.jpg");
-        background-attachment: scroll;
+            url("../assets/bg-mobile-packages.png");
+        background-attachment: fixed;
+        backface-visibility: hidden;
     }
 
     .resume-section p {
