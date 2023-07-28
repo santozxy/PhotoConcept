@@ -110,8 +110,6 @@ section.packages::before {
                 var(--primary)),
             url("../assets/bg-mobile-packages.jpg");
         background-attachment: scroll;
-        background-size: contain;
-       
     }
 
     .resume-section p {
