@@ -7,7 +7,7 @@
 
 
 :root {
-    --primary: #232224;
+    --primary: #171717;
     --secondary: #c9062a;
     --terciary: #fafafa;
     --quaternary: #aaa;
@@ -28,6 +28,20 @@ body {
     background-color: var(--primary);
     font-family: 'Oswald', sans-serif;
     height: 100vh;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--primary);
+    opacity: 0.5;
+}
+
+::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--secondary);
+    border-radius: 1rem;
 }
 
 img {

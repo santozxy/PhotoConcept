@@ -1,5 +1,6 @@
 .gallery{
   background-color: var(--primary);
+  z-index: 1;
 }
 
 .tab {
