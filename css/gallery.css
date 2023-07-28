@@ -69,7 +69,7 @@
 }
 
 .gallery__img:hover {
-  transform: scale(1.02);
+  transform: scale(1.04);
   opacity: 1;
 }
 
