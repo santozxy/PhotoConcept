@@ -110,7 +110,7 @@ section.packages::before {
                 rgba(0, 0, 0, 0.4),
                 var(--primary)),
             url("../assets/bg-mobile.jpg");
-        background-attachment: scroll;
+        background-attachment: local;
     }
 
     .resume-section p {
