@@ -4,6 +4,7 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: var(--secondary);
+    padding-bottom: 3rem;
 }
 
 .footer-logo {
@@ -89,8 +90,8 @@ footer {
 
 @media screen and (max-width:468px) {
     .footer-logo {
-        width: 100%;
-        padding: 0 0 2rem;
+        width: 90%;
+        padding: 0 0 1rem;
     }
 
     .social-media p {
@@ -98,7 +99,7 @@ footer {
     }
 
     .social-icons i {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .btn-wpp {
