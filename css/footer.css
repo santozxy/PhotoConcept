@@ -5,14 +5,14 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: linear-gradient(to bottom,
-            rgba(0, 0, 0, 0.4),
+    background-image: linear-gradient(to top,
+            rgba(0, 0, 0, 0.1),
             var(--primary)),
         url("../assets/footer.png");
     display: flex;
     flex-direction: column;
     background-position: center center;
-    padding-top: 9rem;
+    padding-top: 12rem;
 }
 footer::before {
     content: "";
@@ -131,10 +131,6 @@ footer::before {
 
 @media screen and (max-width:968px) {
 
-    footer{
-        background-position: start;
-    }
-
     .footer-logo {
         width: 100%;
     }
@@ -146,6 +142,15 @@ footer::before {
 }
 
 @media screen and (max-width:468px) {
+
+    footer{
+        background-image: linear-gradient(to top,
+            rgba(0, 0, 0, 0.1),
+            var(--primary)),
+        url("../assets/footer-mobile.png");
+        background-attachment: scroll;
+    }
+
     .footer-logo {
         width: 90%;
         padding: 0 0 1rem;

@@ -5,7 +5,7 @@ section.home {
     overflow: hidden;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: c;
     background-position: center center;
     background-image: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.4),
