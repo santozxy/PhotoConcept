@@ -111,7 +111,7 @@ section.packages::before {
             url("../assets/bg-mobile.jpg");
         background-attachment: scroll;
         background-size: contain;
-        background-repeat: repeat;
+       
     }
 
     .resume-section p {
