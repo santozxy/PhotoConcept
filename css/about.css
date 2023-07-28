@@ -1,15 +1,6 @@
 section.about {
     background-color: var(--primary);
 }
-
-section.about::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-}
-
 .title-container {
     padding: 1rem;
     justify-content: center;
