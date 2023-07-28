@@ -1,0 +1,124 @@
+section.home {
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.4),
+            var(--primary)),
+        url("../assets/bg-home.jpeg");
+    display: flex;
+    flex-direction: column;
+}
+
+section.home::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+section header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+
+section header li:hover {
+    color: var(--terciary);
+    animation: translateY 0.8s infinite alternate;
+    border-bottom: 1px solid #fff;
+}
+
+.logo {
+    width: 30%;
+}
+
+section header nav ul {
+    color: var(--secondary);
+    font-size: 1.5rem;
+    gap: 2rem;
+    padding: 0;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.home-content h1 {
+    color: var(--terciary);
+    font-family: 'Ubuntu';
+    font-size: 3rem;
+    text-align: center;
+}
+
+.home-content span {
+    color: var(--secondary);
+}
+
+/* Responsive */
+
+@media screen and (max-width:968px) {
+    .logo {
+        width: 110%;
+        padding: 0 0 3rem;
+    }
+
+    section header nav ul {
+        font-size: 2rem;
+        gap: 1rem;
+    }
+
+    section header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 3rem;
+    }
+
+    .home-content h1 {
+        color: var(--terciary);
+        font-family: 'Ubuntu';
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .logo {
+        width: 130%;
+        padding: 0 0 3rem;
+    }
+
+    section header h1 {
+        font-size: 3rem;
+    }
+
+    section header nav ul {
+        font-size: 1rem;
+        gap: 0.5rem;
+    }
+
+    .home-content h1 {
+        color: var(--terciary);
+        font-family: 'Ubuntu';
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .home-content a {
+        padding: 0.4rem 6.5rem;
+    }
+}

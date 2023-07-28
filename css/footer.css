@@ -1,0 +1,108 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary);
+}
+
+.footer-logo {
+    width: 50%;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media p {
+    font-size: 1.2rem;
+    margin: 2rem 0rem;
+    text-align: center;
+    color: var(--terciary);
+}
+
+.social-icons i {
+    margin: 2rem 1rem;
+    color: #d8d8d8;
+    font-size: 3.5rem;
+}
+
+.social-icons i:hover {
+    color: var(--terciary);
+    animation: translateY 0.8s infinite alternate;
+}
+
+
+.btn-wpp {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 0.3rem;
+    max-width: 5rem;
+    bottom: 1rem;
+    z-index: 99;
+}
+
+.btn-wpp img {
+    transition: transform 0.5s;
+}
+
+.btn-wpp img:hover {
+    transform: scale(1.1);
+}
+
+.btn-wpp .tooltip-text {
+    visibility: hidden;
+    position: absolute;
+    width: 7.5rem;
+    top: 0.5rem;
+    left: -9rem;
+    padding: 7px;
+    text-align: center;
+    background-color: #232224;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.4s;
+    border-radius: 0.5rem;
+}
+
+.btn-wpp:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+@media screen and (max-width:968px) {
+
+    .footer-logo {
+        width: 100%;
+    }
+
+    .btn-wpp img {
+        max-width: 3.5rem;
+    }
+
+}
+
+@media screen and (max-width:468px) {
+    .footer-logo {
+        width: 100%;
+        padding: 0 0 2rem;
+    }
+
+    .social-media p {
+        font-size: 1rem;
+    }
+
+    .social-icons i {
+        font-size: 3rem;
+    }
+
+    .btn-wpp {
+        right: 0;
+    }
+
+}

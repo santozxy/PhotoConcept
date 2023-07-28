@@ -1,0 +1,82 @@
+@import url(css/home.css);
+@import url(css/about.css);
+@import url(css/packages.css);
+@import url(css/gallery.css);
+@import url(css/footer.css);
+
+
+
+:root {
+    --primary: #232224;
+    --secondary: #c9062a;
+    --terciary: #fafafa;
+    --quaternary: #aaa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--primary);
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: var(--secondary);
+    letter-spacing: 3px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    color: var(--terciary);
+}
+
+i {
+    font-size: 3rem;
+}
+
+p {
+    color: var(--quaternary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Animações */
+
+@keyframes translateY {
+    from {
+        transform: translateY(0) scale(1);
+    }
+
+    to {
+        transform: translateY(-0.4rem) scale(1.06);
+    }
+}
