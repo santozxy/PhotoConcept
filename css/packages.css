@@ -109,8 +109,9 @@ section.packages::before {
                 rgba(0, 0, 0, 0.4),
                 var(--primary)),
             url("../assets/bg-mobile-packages.png");
-        background-attachment: fixed;
-        backface-visibility: hidden;
+        background-attachment: scroll;
+        background-size: contain;
+        background-repeat: repeat;
     }
 
     .resume-section p {
