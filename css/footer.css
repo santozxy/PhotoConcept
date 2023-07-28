@@ -4,7 +4,7 @@ footer {
     overflow: hidden;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     background-image: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.4),
             var(--primary)),
@@ -130,6 +130,10 @@ footer::before {
 
 
 @media screen and (max-width:968px) {
+
+    footer{
+        background-position: start;
+    }
 
     .footer-logo {
         width: 100%;
