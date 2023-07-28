@@ -107,11 +107,12 @@ section.packages::before {
 
 @media screen and (max-width:468px) {
 
-    section.packages{
+    section.packages {
         background-image: linear-gradient(to bottom,
-        rgba(0, 0, 0, 0.4),
-        var(--primary)),
-    url("../assets/bg-mobile.jpg");
+                rgba(0, 0, 0, 0.4),
+                var(--primary)),
+            url("../assets/bg-mobile.jpg");
+        background-attachment: scroll;
     }
 
     .resume-section p {
