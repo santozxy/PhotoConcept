@@ -11,7 +11,7 @@ section.packages {
         url("../assets/bg-home.jpeg");
     display: flex;
     flex-direction: column;
-    background-position: center;
+    background-position: center center;
     padding-bottom: 5rem;
 }
 
@@ -112,7 +112,6 @@ section.packages::before {
         rgba(0, 0, 0, 0.4),
         var(--primary)),
     url("../assets/bg-mobile.jpg");
-    background-size: contain;
     }
 
     .resume-section p {
