@@ -32,7 +32,6 @@ body {
 
 ::-webkit-scrollbar-track {
     background-color: var(--primary);
-    opacity: 0.5;
 }
 
 ::-webkit-scrollbar {
