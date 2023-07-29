@@ -29,7 +29,8 @@
     <!-- Fontes do Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Ubuntu:wght@400;500;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Ubuntu:wght@400;500;700&display=swap"
         rel="stylesheet">
 
     <!-- Biblioteca AOS -->
@@ -39,6 +40,7 @@
 </head>
 
 <body>
+    <!--Seção Home -->
     <section class="home" id="home" aria-label="Seção inicial de apresentação ao website">
         <header>
             <img class="logo" src="assets/logo.png" alt="Logomarca" data-aos="fade-down" data-aos-delay="200">
@@ -60,17 +62,19 @@
         </div>
 
     </section>
+
+    <!--Seção Sobre -->
     <section class="about" id="about" aria-label="Seção sobre o profissional e sua experiência profissional">
 
         <div class="title-container">
-            <div class="line-section" data-aos="fade-up" data-aos-delay="300"></div>
+            <div class="line-section" data-aos="fade-up" data-aos-delay="200"></div>
             <h1 class="title-section" data-aos="fade-up" data-aos-delay="200">Sobre</h1>
-            <div class="line-section" data-aos="fade-up" data-aos-delay="300"></div>
+            <div class="line-section" data-aos="fade-up" data-aos-delay="200"></div>
         </div>
 
         <div class="about-content">
             <div class="resume">
-                <img src="assets/photo.JPG" alt="Foto de Gonçalo Neto" data-aos="fade-right" data-aos-delay="200">
+                <img src="assets/photo.JPG" alt="Foto de Gonçalo Neto" data-aos="fade-up" data-aos-delay="200">
                 <h1 data-aos="fade-up" data-aos-delay="200">Gonçalo Neto</h1>
             </div>
 
@@ -101,12 +105,13 @@
         </div>
     </section>
 
+    <!--Seção Pacotes -->
     <section class="packages" id="packages" aria-label="Seção dos pacotes disponíveis para orçamentos">
 
         <div class="title-container">
-            <div class="line-section" data-aos="fade-up" data-aos-delay="300"></div>
+            <div class="line-section" data-aos="fade-up" data-aos-delay="200"></div>
             <h1 class="title-section" data-aos="fade-up" data-aos-delay="200">Pacotes</h1>
-            <div class="line-section" data-aos="fade-up" data-aos-delay="300"></div>
+            <div class="line-section" data-aos="fade-up" data-aos-delay="200"></div>
         </div>
 
         <div class="resume-section" data-aos="fade-up" data-aos-delay="200">
@@ -213,12 +218,12 @@
             </div>
         </div>
     </section>
-
+    <!--Seção Galeria de fotos -->
     <section class="gallery" id="gallery" aria-label="Seção de galeria de fotos tiradas.">
         <div class="title-container">
-            <div class="line-section" data-aos="fade-up" data-aos-delay="300"></div>
+            <div class="line-section" data-aos="fade-up" data-aos-delay="200"></div>
             <h1 class="title-section" data-aos="fade-up" data-aos-delay="200">Galeria</h1>
-            <div class="line-section" data-aos="fade-up" data-aos-delay="300"></div>
+            <div class="line-section" data-aos="fade-up" data-aos-delay="200"></div>
         </div>
 
         <div class="resume-section" data-aos="fade-up" data-aos-delay="200">
@@ -226,6 +231,7 @@
                 novas memórias preciosas. Nossa galeria de momentos preciosos aguarda a sua visita!
             </p>
         </div>
+        <!-- Navegação entre categorias da galeria -->
 
         <div class="tab" data-aos="fade-up" data-aos-delay="200">
             <button class="tablinks active" onclick="openTab(event, 'essays')">Ensaios</button>
@@ -235,7 +241,8 @@
             <button class="tablinks" onclick="openTab(event, 'pregnant')">Gestantes</button>
         </div>
 
-        <!-- Galeria -->
+        <!-- Galerias das diferentes categorias -->
+        <!-- Cada galeria tem um ID correspondente à categoria: "essays", "nature", "events", "weddings", "pregnant" -->
         <div id="essays" class="tabcontent">
             <swiper-container class="gallery-container">
                 <!--pagination="true" pagination-clickable="true" navigation="true"-->
@@ -370,14 +377,14 @@
     <!-- BOTÃO WHATSAPP -->
 
     <a href="https://api.whatsapp.com/send?phone=5586998480162&text=Quero%20fazer%20um%20agendamento%20hoje!"
-        class="btn-wpp" target="_blank" data-aos="zoom-in-up" data-aos-delay="300">
+        class="btn-wpp" target="_blank" data-aos="zoom-in-up" data-aos-delay="200">
         <img src="assets/whatssapp.svg" alt="Botão whatssapp" />
         <span class="tooltip-text">Agende seu horário</span>
     </a>
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script> -->
     <script src="script.js"></script>
 </body>
-<footer data-aos="fade-up" data-aos-delay="300" aria-label="Rodapé">
+<footer data-aos="fade-up" data-aos-delay="200" aria-label="Rodapé">
     <div class="about-footer">
         <img class="footer-logo" src="assets/logo.png" alt="Logomarca">
         <p>Capturando momentos inesquecíveis através das lentes.</p>
