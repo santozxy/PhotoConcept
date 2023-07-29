@@ -14,6 +14,7 @@ footer {
     background-position: center center;
     padding-top: 12rem;
 }
+
 footer::before {
     content: "";
     width: 100%;
@@ -143,11 +144,11 @@ footer::before {
 
 @media screen and (max-width:468px) {
 
-    footer{
+    footer {
         background-image: linear-gradient(to top,
-            rgba(0, 0, 0, 0.1),
-            var(--primary)),
-        url("../assets/footer-mobile.png");
+                rgba(0, 0, 0, 0.1),
+                var(--primary)),
+            url("../assets/footer-mobile.png");
         background-attachment: scroll;
     }
 
