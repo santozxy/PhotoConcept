@@ -72,7 +72,7 @@ section header nav ul {
 
 @media screen and (max-width:968px) {
     .logo {
-        width: 110%;
+        width: 100%;
         padding: 0 0 3rem;
     }
 
