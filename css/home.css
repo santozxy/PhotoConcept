@@ -95,9 +95,7 @@ header nav ul {
 }
 
 @media screen and (max-width:468px) {
-    section.home {
-        background-attachment: scroll;
-    }
+
 
     .logo {
         width: 100%;
