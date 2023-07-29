@@ -17,8 +17,6 @@ section.packages {
 
 section.packages::before {
     content: "";
-    width: 100%;
-    height: 100%;
     position: absolute;
     z-index: -1;
 }
