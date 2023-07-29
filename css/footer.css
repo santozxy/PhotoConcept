@@ -7,7 +7,7 @@ footer {
     background-image: linear-gradient(to top,
             rgba(0, 0, 0, 0.1),
             var(--primary)),
-        url("../assets/footer.png");
+        url("../assets/footer.webp");
     display: flex;
     flex-direction: column;
     background-position: center center;
@@ -67,9 +67,9 @@ footer::before {
 }
 
 .copyright {
-    padding: 1rem 3rem 2rem;
+    padding: 1rem 3rem 1rem;
     width: 100%;
-    background-color: var(--secondary);
+    background-color: #232224;
 }
 
 .copyright p {
@@ -94,7 +94,7 @@ footer::before {
     right: 0;
     margin-right: 0.3rem;
     max-width: 5rem;
-    bottom: 1rem;
+    bottom: 0.5rem;
     z-index: 99;
 }
 
@@ -146,7 +146,7 @@ footer::before {
         background-image: linear-gradient(to top,
                 rgba(0, 0, 0, 0.1),
                 var(--primary)),
-            url("../assets/footer-mobile.png");
+            url("../assets/footer-mobile.webp");
         background-attachment: scroll;
     }
 
@@ -168,7 +168,11 @@ footer::before {
     }
 
     .btn-wpp {
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .btn-wpp img {
+        max-width: 3.5rem;
     }
 
     .about-footer {

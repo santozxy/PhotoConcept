@@ -10,7 +10,7 @@ section.home {
     background-image: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.4),
             var(--primary)),
-        url("../assets/bg-home.jpg");
+        url("../assets/bg-home.webp");
     display: flex;
     flex-direction: column;
 }
@@ -74,12 +74,12 @@ header nav ul {
         padding: 0 0 3rem;
     }
 
-     header nav ul {
+    header nav ul {
         font-size: 2rem;
         gap: 1rem;
     }
 
-     header {
+    header {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -96,13 +96,20 @@ header nav ul {
 
 @media screen and (max-width:468px) {
 
+    section.home {
+        background-attachment: scroll;
+        background-image: linear-gradient(to bottom,
+                rgba(0, 0, 0, 0.4),
+                var(--primary)),
+            url("../assets/bg-mobile.webp");
+    }
 
     .logo {
         width: 100%;
         padding: 0 0 3rem;
     }
 
-     header nav ul {
+    header nav ul {
         font-size: 1rem;
         gap: 0.5rem;
     }

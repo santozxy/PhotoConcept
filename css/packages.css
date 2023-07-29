@@ -8,7 +8,7 @@ section.packages {
     background-image: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.4),
             var(--primary)),
-        url("../assets/bg-home.jpg");
+        url("../assets/bg-home.webp");
     display: flex;
     flex-direction: column;
     padding: 5rem 0;
@@ -94,6 +94,7 @@ section.packages::before {
 /* Responsive */
 
 @media screen and (max-width:968px) {
+
     .resume-section p {
         max-width: 90%;
         font-size: 1.5rem;
@@ -102,6 +103,13 @@ section.packages::before {
 }
 
 @media screen and (max-width:468px) {
+
+    section.packages {
+        background-image: linear-gradient(to bottom,
+                rgba(0, 0, 0, 0.4),
+                var(--primary)),
+            url("../assets/bg-mobile-packages.webp");
+    }
 
     .resume-section p {
         max-width: 100%;
