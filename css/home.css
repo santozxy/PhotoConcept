@@ -106,12 +106,8 @@ section header nav ul {
     }
 
     .logo {
-        width: 130%;
+        width: 100%;
         padding: 0 0 3rem;
-    }
-
-    section header h1 {
-        font-size: 3rem;
     }
 
     section header nav ul {
