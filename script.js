@@ -1,4 +1,4 @@
-AOS.init();
+
 
 function openTab(evt, nav) {
   var i, tabcontent, tablinks;
