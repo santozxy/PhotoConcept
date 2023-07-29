@@ -1,3 +1,8 @@
+@import url(css/home.css);
+@import url(css/about.css);
+@import url(css/packages.css);
+@import url(css/gallery.css);
+@import url(css/footer.css);
 
 :root {
     --primary: #171717;
