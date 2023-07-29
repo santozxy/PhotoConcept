@@ -1,6 +1,6 @@
 (function() {
   // Inicialização da biblioteca AOS
-  AOS.init();
+
 
   // Função para mostrar o conteúdo da aba selecionada
   function showTabContent(evt, nav) {
