@@ -1,25 +1,22 @@
-(function() {
-  // Inicialização da biblioteca AOS
-  AOS.init();
+AOS.init();
 
-  // Função para mostrar o conteúdo da aba selecionada
-  function showTabContent(evt, nav) {
-      var i, tabcontent, tablinks;
+function openTab(evt, nav) {
+  var i, tabcontent, tablinks;
 
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-      }
-
-      tablinks = document.getElementsByClassName("tablinks");
-      for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].classList.remove("active");
-      }
-
-      document.getElementById(nav).style.display = "block";
-      evt.currentTarget.classList.add("active");
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
   }
 
-  // Exibir a aba "Ensaio" por padrão ao carregar a página
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  document.getElementById(nav).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("essays").style.display = "block";
-})();
+});
