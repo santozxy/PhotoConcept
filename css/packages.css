@@ -8,7 +8,7 @@ section.packages {
     background-image: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.4),
             var(--primary)),
-        url("../assets/bg-home.jpeg");
+        url("../assets/bg-home.jpg");
     display: flex;
     flex-direction: column;
     background-position: center center;
